@@ -6,3 +6,8 @@ of positive integers, satisfying the following conditions,
 
 1. Numbers in a series are in descending order;
 2. The sum of all the numbers in a series must be equal to N, 
+
+
+.. image:: https://travis-ci.org/gchiam/gchiam_cc.png?branch=master
+   :target: https://travis-ci.org/gchiam/gchiam_cc
+   :alt: Travis CI Build Status
