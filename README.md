@@ -11,3 +11,26 @@ of positive integers, satisfying the following conditions,
 [![Build Status](https://travis-ci.org/gchiam/sum-sequence.svg?branch=master)](https://travis-ci.org/gchiam/sum-sequence)
 [![Build Status](https://drone.io/github.com/gchiam/sum-sequence/status.png)](https://drone.io/github.com/gchiam/sum-sequence/latest)
 
+Example:
+
+```
+$ python sum_sequence.py 3
+[3]
+[2, 1]
+[1, 1, 1]
+```
+
+```
+$python sum_sequence.py 6
+[6]
+[5, 1]
+[4, 2]
+[4, 1, 1]
+[3, 3]
+[3, 2, 1]
+[3, 1, 1, 1]
+[2, 2, 2]
+[2, 2, 1, 1]
+[2, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
+```
