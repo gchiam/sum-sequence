@@ -8,6 +8,7 @@ of positive integers, satisfying the following conditions,
 2. The sum of all the numbers in a series must be equal to N, 
 
 
-.. image:: https://travis-ci.org/gchiam/gchiam_cc.png?branch=master
-   :target: https://travis-ci.org/gchiam/gchiam_cc
+.. image:: https://travis-ci.org/gchiam/sum_sequence.png?branch=master
+   :target: https://travis-ci.org/gchiam/sum_sequence
    :alt: Travis CI Build Status
+
