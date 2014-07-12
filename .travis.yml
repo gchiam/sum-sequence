@@ -4,5 +4,7 @@ python:
   - "2.7"
   - "3.3"
   - "3.4"
+install:
+  - python --version | grep "2.6" || pip install argparse
 script:
   - python test.py
