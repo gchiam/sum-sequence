@@ -20,7 +20,16 @@ $python sum_sequence.py 6
 [1, 1, 1, 1, 1, 1]
 """
 
+from __future__ import print_function
+
 import argparse
+
+
+# python 2, 3 compatible
+try:
+    range = xrange
+except NameError:
+    pass
 
 
 def generate_sequence(num):
@@ -36,7 +45,7 @@ def gen_sub_sequence(sequence, previous_first=None):
     if previous_first is None:  # first entry
         yield sequence
 
-    for new_number in xrange(start, 0, -1):
+    for new_number in range(start, 0, -1):
         second = first - new_number
         new_sequence = [new_number, second] + sequence[1:]
         if new_number >= second:
@@ -75,7 +84,7 @@ def main():
     args = parser.parse_args()
 
     for element in generate_sequence(args.number):
-        print element
+        print(element)
 
 
 if __name__ == '__main__':
