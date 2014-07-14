@@ -1,5 +1,26 @@
 import unittest
+
+import argparse
+
+from sum_sequence import positive_integer
 from sum_sequence import generate_sequence
+
+
+class TestPositiveInteger(unittest.TestCase):
+    def test_negative(self):
+        with self.assertRaises(argparse.ArgumentTypeError):
+            positive_integer('-1')
+
+    def test_zero(self):
+        with self.assertRaises(argparse.ArgumentTypeError):
+            positive_integer('0')
+
+    def test_non_integer(self):
+        with self.assertRaises(argparse.ArgumentTypeError):
+            positive_integer('a')
+
+    def test_integer(self):
+        self.assertEqual(positive_integer('1'), 1)
 
 
 class TestSumSequence(unittest.TestCase):
