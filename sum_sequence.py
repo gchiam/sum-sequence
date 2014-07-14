@@ -73,7 +73,7 @@ def positive_integer(string):
     return value
 
 
-def main():
+def main():  # pragma: no covert
     """Main function"""
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -87,5 +87,4 @@ def main():
         print(element)
 
 
-if __name__ == '__main__':
-    main()
+if __name__ == '__main__':    main()
