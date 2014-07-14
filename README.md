@@ -10,6 +10,7 @@ of positive integers, satisfying the following conditions,
 
 [![Build Status](https://travis-ci.org/gchiam/sum-sequence.svg?branch=master)](https://travis-ci.org/gchiam/sum-sequence)
 [![Build Status](https://drone.io/github.com/gchiam/sum-sequence/status.png)](https://drone.io/github.com/gchiam/sum-sequence/latest)
+[![Coverage Status](https://coveralls.io/repos/gchiam/sum-sequence/badge.png)](https://coveralls.io/r/gchiam/sum-sequence)
 
 Example:
 
