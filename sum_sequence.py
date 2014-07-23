@@ -87,4 +87,5 @@ def main():  # pragma: no covert
         print(element)
 
 
-if __name__ == '__main__':    main()
+if __name__ == '__main__':
+    main()
